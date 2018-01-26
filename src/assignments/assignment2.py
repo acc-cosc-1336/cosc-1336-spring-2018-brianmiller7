@@ -32,7 +32,7 @@ elif (som_ratio + oft_ratio + voft_ratio + alw_ratio) >= .7 :
 	return 'Good'
 # Test for NI
 elif (rar_ratio + som_ratio + oft_ratio + voft_ratio + alw_ratio) >= .6 :
-	return 'NI'
+	return 'Needs Improvement'
 # Test for Unacceptable
 else :
 	return 'Unacceptable'
