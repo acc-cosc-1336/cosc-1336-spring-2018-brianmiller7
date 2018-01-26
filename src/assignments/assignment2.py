@@ -19,7 +19,7 @@ def faculty_evaluation_result(nev, rar, som, oft, voft, alw):
     rar_ratio = rar / totalResp
     nev_ratio = nev / totalResp
 	
-    if (alw_ratio + voft_ratio_ratio) >= .9 :
+    if (alw_ratio + voft_ratio) >= .9 :
 	    return 'Excellent'
     elif (oft_ratio + voft_ratio + alw_ratio) >= .8 :
 	    return 'Very Good'
